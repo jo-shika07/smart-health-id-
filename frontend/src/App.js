@@ -9,7 +9,8 @@ import { Popover, PopoverContent, PopoverTrigger } from "./components/ui/popover
 import { Calendar } from "./components/ui/calendar";
 import "@/App.css";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "https://smart-health-id.onrender.com";
+const API = `${BACKEND_URL}/api`;
 const demoUsers = {
   PATIENT: { email: "patient@example.com", name: "Aarav Sharma", label: "Patient" },
   DOCTOR: { email: "doctor@example.com", name: "Dr. Ananya Rao", label: "Doctor" },
