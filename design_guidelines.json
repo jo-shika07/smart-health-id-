@@ -1,0 +1,61 @@
+{
+  "app_name": "Smart Health ID",
+  "subtitle": "Smart Health Record & Data Verification System",
+  "theme": "light",
+  "typography": {
+    "heading": "Plus Jakarta Sans, sans-serif",
+    "body": "Inter, sans-serif"
+  },
+  "colors": {
+    "primary_medical_blue": "#0284C7",
+    "secondary_cyan": "#06B6D4",
+    "success_green": "#10B981",
+    "warning_orange": "#F59E0B",
+    "danger_red": "#EF4444",
+    "background_light": "#F8FAFC",
+    "surface_white": "#FFFFFF",
+    "text_primary": "#0F172A",
+    "text_muted": "#64748B"
+  },
+  "image_urls": [
+    {
+      "category": "doctor_portrait_1",
+      "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBkb2N0b3IlMjBwb3J0cmFpdCUyMGhvc3BpdGFsfGVufDB8fHx8MTc4NjU2OTg3MHww&ixlib=rb-4.1.0&q=85",
+      "description": "Professional doctor portrait 1"
+    },
+    {
+      "category": "doctor_portrait_2",
+      "url": "https://images.unsplash.com/photo-1712215544003-af10130f8eb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBkb2N0b3IlMjBwb3J0cmFpdCUyMGhvc3BpdGFsfGVufDB8fHx8MTc4NjU2OTg3MHww&ixlib=rb-4.1.0&q=85",
+      "description": "Professional doctor portrait 2"
+    },
+    {
+      "category": "hospital_interior",
+      "url": "https://images.unsplash.com/photo-1777269749032-d8d458ae594d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBob3NwaXtalUyMGNsaW5pYyUyMGludGVyaW9yJTIwY2xlYW58ZW58MHx8fHwxNzg2NTY5ODcwfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Modern hospital clean corridor"
+    },
+    {
+      "category": "patient_consultation",
+      "url": "https://images.unsplash.com/photo-1758691463198-dc663b8a64e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHBhdGllbnQlMjBjb25zdWx0YXRpb24lMjBtZWRpY2FsfGVufDB8fHx8MTc4NjU2OTg3MHww&ixlib=rb-4.1.0&q=85",
+      "description": "Happy patient consultation"
+    }
+  ],
+  "roles_supported": [
+    "patient",
+    "doctor",
+    "hospital"
+  ],
+  "key_features": [
+    "Role-based authentication (one-click demo + email/password)",
+    "Patient dashboard with vitals, Health ID card, and QR verification",
+    "Medical records, lab reports, and vaccination history",
+    "Doctor directory with specialties and appointment booking flow",
+    "AI Symptom Specialist with medical disclaimer",
+    "Doctor dashboard for patient queues and consultation notes",
+    "Hospital dashboard for doctor management, bed status, and verification audits",
+    "Global search and real-time notifications"
+  ],
+  "accessibility_requirements": {
+    "contrast_ratio": "WCAG AA compliant (minimum 4.5:1 for normal text)",
+    "interactive_elements": "All buttons, links, and form inputs must include data-testid attributes"
+  }
+}

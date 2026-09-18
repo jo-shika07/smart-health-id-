@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: smart-health-id-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: MONGO_URL
+        sync: false   # Set manually in Render dashboard
+      - key: DB_NAME
+        value: smarthealthid
+      - key: JWT_SECRET
+        sync: false   # Set manually in Render dashboard
+      - key: PRODUCTION
+        value: "true"
+      - key: FRONTEND_URL
+        sync: false   # Set to your Vercel URL after frontend is deployed
+      - key: RESEND_API_KEY
+        sync: false   # Optional — for email features
+      - key: SENDER_EMAIL
+        sync: false   # Optional — for email features
+      - key: OPENAI_API_KEY
+        sync: false   # Optional — for AI features
